@@ -8,7 +8,7 @@ else:
 
 @classmethod
 def mktemp(cls):
-    return cls(tempfile.mktemp())
+    return cls(tempfile.mkstemp())
 
 @classmethod
 def mkdtemp(cls):
